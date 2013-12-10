@@ -1,4 +1,4 @@
-FROM mischief/golang
+FROM mischief/docker-golang
 ENV HOME /root
 RUN apt-get install -y libsqlite3-dev 
 RUN go get github.com/robfig/revel/revel
